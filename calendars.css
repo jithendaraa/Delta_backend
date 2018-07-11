@@ -1,0 +1,436 @@
+.calendar{
+    background-color: orange;
+    color: black;
+    width: 56%;
+    height: 300px;
+}
+.title{
+    background-color: black;
+    color: orange; 
+}
+
+table{
+    width: 553px;
+    height: 200px;
+}
+.colspan{
+    background-color: #CC8400;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+tr{
+    border-bottom:1px solid black ;
+    width:553px;
+}
+
+td{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width:79px;
+}
+
+th{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width:79px;
+}
+
+caption{
+    font-size:30px;
+}
+
+td:hover{
+    background-color: black;
+    color:orange;
+    cursor: pointer;
+    border-top: 1px solid white;
+}
+
+.heading{
+    font-size: 30px;
+    color: black;
+    width: 40%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: dodgerblue;
+}
+
+.content{
+    padding-left: 70px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+     /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    background-color: gray;
+    color: orange;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+.send-inv{
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.make-appt-btn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.make-appt-btn:hover{
+    color: orange;
+}
+.send-inv:hover{
+    color: orange;
+}
+p{
+    position: relative;
+    left: 100px;
+}
+
+.nav_calendar{
+    padding-left: 100px;
+}
+
+.contain{
+    background-color: black;
+    padding-left: 100px;
+    width: 50%;
+    border-radius: 10px;
+    color: orange;
+    animation-duration: 1s;
+    -webkit-animation-name: animation1;
+}
+@keyframes animation1 {
+    from {width: 0%;
+          background-color:#FF9966;
+          color: black; }
+    to {width: 50%;
+        background-color:black;
+        color: orange;}
+}
+
+.entries{
+    width: 50%;
+    background-color: black;
+    color: teal;
+    border-radius: 50px;
+    animation-duration: 1s;
+    -webkit-animation-name: animation2;
+}
+@keyframes animation2 {
+    from {width: 0%;
+          background-color:#FF9966;
+          color: black; }
+    to {width: 50%;
+        background-color:black;
+        color: teal;}
+}
+.no-entry{
+    background-color: black;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 100px;
+    color: orange;   
+    animation-duration: 1s;
+    -webkit-animation-name: animation3; 
+}
+@keyframes animation3 {
+    from {width: 0%;
+          background-color:#FF9966;
+          color: black; }
+    to {width: 50%;
+        background-color:black;
+        color: orange;}
+}
+
+.padding{
+    padding-left: 100px;
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+    width: 50%; 
+    animation-duration: 1s;
+    -webkit-animation-name: animation4;   
+}
+
+@keyframes animation4 {
+    from {width: 0%;
+          background-color:#FF9966;
+          color: black; }
+    to {width: 50%;
+        background-color:yellow;
+        color: red;}
+}
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+     /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop2;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop2;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop2 {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop2 {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header2 {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body2 {
+    padding: 2px 16px;
+    background-color: gray;
+    color: orange;
+}
+
+.modal-footer2 {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+    position: relative;
+    background-color: gray;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop3;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop3;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop3 {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop3 {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close3 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header3 {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body3 {
+    padding: 2px 16px;
+}
+
+.modal-footer3 {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.list{
+    color: black;
+}
+.black{
+    text-decoration: underline;
+}
+
+.inv_td{ 
+	border:none;
+	border-bottom: 1px solid white;
+    text-align: center;
+ }
+
+.inv_tr{
+	border:none;
+	width: 70%;
+
+}
+.inv_th{
+	border:none;
+    text-align: center;
+
+}
+
+.inv_table{
+	width: 70%;
+}
+
+.coolbtn{
+    border-radius: 5px;
+    background-color: black;
+    color: orange;
+}
+
+.no_inv{
+        animation-duration: 1s;
+    -webkit-animation-name: animation69;  
+    background-color:yellow; 
+    color: red;
+    border-radius: 5px;
+    width: 40%;
+}
+
+@keyframes animation69 {
+    from {width: 0%;
+          background-color:#FF9966;
+          color: black; }
+    to {width: 40%;
+        background-color:yellow;
+        color: red;}
+}
+}
